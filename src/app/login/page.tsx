@@ -100,14 +100,22 @@ export default function LoginPage() {
                 </div> */}
 
                 {/* Google Sign-In */}
-                <button
+                {/* <button
                     type="button"
                     onClick={handleGoogleSignIn}
                     className="w-full flex items-center justify-center gap-3 py-3 px-4 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-xl text-sm font-semibold text-gray-700 dark:text-zinc-200 hover:bg-gray-50 dark:hover:bg-zinc-700 transition-colors shadow-sm"
                 >
                     <FcGoogle className="w-5 h-5" />
                     Continue with Google
-                </button>
+                </button> */}
+
+                <p
+                    
+                    className="w-full flex items-center justify-center gap-3 py-3 px-4 bg-white dark:bg-zinc-800 border border-gray-200 dark:border-zinc-700 rounded-xl text-sm font-semibold text-gray-700 dark:text-zinc-200 hover:bg-gray-50 dark:hover:bg-zinc-700 transition-colors shadow-sm"
+                >
+                    <FcGoogle className="w-5 h-5" />
+                    Google login is currently unavailabel
+                </p>
 
                 <div className="flex items-center gap-3">
                     <div className="h-px flex-1 bg-gray-200 dark:bg-zinc-700" />
